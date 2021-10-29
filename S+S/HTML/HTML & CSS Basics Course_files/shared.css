@@ -1,0 +1,249 @@
+body {
+	font-family: Merriweather,serif;
+	letter-spacing: .01rem;
+	font-size: 1.2em;
+	line-height: 1.75em;
+	color: #3A4145;
+	background-color: #EDEFF0;
+}
+
+body,
+html {
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+p {
+	padding: .3% 0 .3% 0;
+}
+
+h3 {
+	padding: 0% 0 .0% 0;
+}
+
+a, a:visited, a:active, a:link {
+	color: darkblue;
+	text-decoration: none;
+}
+
+a:hover {
+	color: red;
+	font-weight: 400;
+}
+
+pre { /* code background */
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 0 0 1.75em;
+    width: 80%;
+    padding: 10px;
+    font-size: .9em;
+    white-space: pre;
+    overflow: auto;
+    border-radius: 3px;
+}
+
+.page-container {
+	/* background-color: canary; #F7F9FA */
+}
+
+code, 
+pre {
+    font-family: Inconsolata,Consolas,Courier,"Courier New","Liberation Mono",monospace;
+    font-size: .85em;
+    white-space: pre-wrap;
+    line-height: 1.4;
+    font-weight: 400;
+    background-color: #404145;
+    color: #FAFAFA; /* code in sentence text */
+    border-radius: 2px;
+}
+
+pre {
+	box-shadow: 3px 3px 13px -2px rgba(0,0,0,0.62);
+}
+
+.title {
+	color: Black;
+	text-align: Justify;
+	margin-left: 10%;
+}
+
+.page-header {
+	color: darkblue;
+	text-align: Justify;
+	margin: 3% 0% -1% 4%;
+}
+
+#assumtion {
+	margin: 3% 0% -1% 4%;
+}
+
+.important {
+	color: darkred;
+}
+
+.download {
+	margin: 2% 0% 2% 6%;
+}
+
+.css-img {
+	width: 417px;
+	height: 316px;
+	text-align: Justify;
+	margin: 0% 0% 0% 15%;
+	background-image: url("../images/anatomy.png");
+	box-shadow: 3px 3px 13px -2px rgba(0,0,0,0.92);
+}
+
+.code-discussion {
+	Width: 100%;
+	Height: 100%;
+}
+
+.code-container {
+	width: 80%;
+	margin: 0 auto;
+	padding: 10px;
+	overflow: auto;
+	background-color: #fff;
+	box-shadow: 3px 3px 13px -2px rgba(0,0,0,0.92);
+}
+
+.code-container span {
+	color: #fff;
+}
+
+.code-container p {
+	margin: 2% 4% 2% 4%;
+}
+
+code .code-white {
+	color: #fff;
+}
+
+code .code-yellow {
+	color: yellow;
+}
+
+code .code-blue {
+	color: #ca7dfb;
+}
+
+code .code-orange {
+	color: #e89007;
+}
+
+code .code-red {
+	color: #f00;
+}
+
+code .code-green {
+	color: forestgreen;
+}
+
+code .code-1 {
+	color: #fff;
+	font-weight: 900;
+	font-size: 27px;
+}
+
+code .code-2 {
+	color: #fff;
+	font-weight: 900;
+	font-size: 25px;
+}
+
+code .code-3 {
+	color: #fff;
+	font-weight: 900;
+	font-size: 21px;
+}
+
+code .code-4 {
+	color: #fff;
+	font-weight: 900;
+	font-size: 19px;
+}
+
+code .code-5 {
+	color: #fff;
+	font-weight: 900;
+	font-size: 17px;
+}
+
+code .code-6 {
+	color: #fff;
+	font-weight: 900;
+	font-size: 15px;
+}
+
+.button {
+	width: 100%;
+	margin: 0% auto;
+}
+
+.button ul {
+	display: inline;
+	list-style: none;
+	text-decoration: none;
+	cursor: pointer;
+	width: 100%;
+	margin: 0% auto;
+}
+
+.button ul:hover {
+	width: 100%;
+	margin: 0% auto;
+}
+
+.button li {
+	font-family: Georgia;
+	color: #38409C;
+	font-size: 20px;
+	display: inline-block;
+	position: relative;
+	list-style: none;
+	text-decoration: none;
+	text-align: center;
+	width: 50px;
+	height: 30px;
+	margin: 2% 0% 2% 0%;
+	padding: 4px 25px 4px 25px;
+	-webkit-border-radius: 10;
+	-moz-border-radius: 10;
+	border-radius: 10px;
+	border: 2px solid #8FC6D9;
+	text-shadow: 1px 1px 3px #000000;
+	-webkit-box-shadow: 1px 1px 3px #000000;
+	-moz-box-shadow: 1px 1px 3px #000000;
+	box-shadow: 1px 1px 3px #000000;
+	transition-property: background, color, box-shadow;
+	transition-duration: .3s, 0s, .2s;
+	transition-timing-function: ease-out, ease-out, ease-out;
+}
+
+.button li:hover {
+	color: #fff;
+	background-color: #8FC6D9;
+	border: 2px solid #636DDB;
+	text-shadow: 1px 1px 5px #000000;
+	box-shadow: 0px 0px 0px #000000;
+}
+
+.tutorial1 {
+	margin: 3% 0% 0% 5%;
+}
+
+.tutorial1 p {
+	color: red;
+}
+
+.video {
+	margin: 0 auto;
+	width: 50%;
+	border: 1px solid #000;
+	z-index: 10;
+}

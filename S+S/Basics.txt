@@ -1,0 +1,19 @@
+Bandwidth is the rate for the amount of information that can be transfered from computer to computer.  The lower the bandwidth, the slower the information is sent.
+Code is what makes up computer languages, and it is the basis for computer programs.
+CSS stands for Cascading Style Sheet, and it is used to format the design of a webpage.
+DNS stands for Domain Name System.  It works in the background to translate domain names from human language to computer language.
+Domain is a group of websites that are in a particular section of the internet.
+Download is to save data from a website and adding a copy of it to your computer.
+Host (Hosting) is where all the information about a website is stored. 
+HTML stands for HyperText Markup Language, and it is the language used in making websites.
+HTTP stands for HyperText Transfer Protocol, and it is one method of transferring information from one computer to another over the internet. 
+Markup language is a language that is understood by both people and computers and contains such commands as bold, underline, and italics.
+Mainframe is a highly secure computer that holds massive amounts of information.
+Online is when a computer is connected to the internet.
+Search engine is a program used to find items in a database corresponding to various keywords entered by the user.
+Server is a computer that constantly sends out the requested data to other computers.
+URL stands for Uniform Resource Locator, and it is an address of a website located on the internet.
+Web browser is a tool used to view websites on the internet.
+Webpage is a destination that is part of a website.
+Website is a place on the world wide web where information can be found.
+World Wide Web (www.) is a massive collection of digital data that can be viewed on a computer.
