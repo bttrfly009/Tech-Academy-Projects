@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Timer</title>
+		<meta charset="UTF-8">
+	</head>
+	<body>
+        <script>
+            function countdown() {
+    var seconds = document.getElementById("seconds").ariaValueMax;
+function tick() {
+    seconds = seconds - 1;
+    timer.innerHTML = seconds;
+    var time = setTimeout(tick, 1000);
+    if (seconds == -1) {
+        alert("Time's up!");
+        clearTimeout(time);
+        timer.innerHTML = "";
+    }
+}
+tick();
+}
+        </script>
+        
+            <p>For how many seconds would you like to set your alarm?</p>
+            <input id="seconds" value="" />
+            <p id="timer"></p>
+            <button onclick="countdown()">Click here</button>
+    </body>
+</html>
